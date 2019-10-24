@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace unreal4u\TelegramAPI;
+namespace fork_unreal4u\TelegramAPI;
 
 use Psr\Log\LoggerInterface;
 use React\Promise\PromiseInterface;
 use unreal4u\Dummy\Logger;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\InternalFunctionality\PostOptionsConstructor;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramDocument;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use unreal4u\TelegramAPI\Telegram\Types\File;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use fork_unreal4u\TelegramAPI\InternalFunctionality\PostOptionsConstructor;
+use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramDocument;
+use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use fork_unreal4u\TelegramAPI\Telegram\Types\File;
 
 /**
  * The main API which does it all
@@ -79,7 +79,7 @@ class TgLog
      * @param TelegramMethods $method
      *
      * @return PromiseInterface
-     * @throws \unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
+     * @throws \fork_unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
      */
     public function performApiRequest(TelegramMethods $method): PromiseInterface
     {

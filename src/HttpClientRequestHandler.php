@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace unreal4u\TelegramAPI;
+namespace fork_unreal4u\TelegramAPI;
 
 use Exception;
 use React\EventLoop\LoopInterface;
@@ -12,8 +12,8 @@ use React\HttpClient\Response;
 use React\Promise\Deferred;
 use React\Promise\PromiseInterface;
 use React\Socket\Connector;
-use unreal4u\TelegramAPI\Exceptions\ClientException;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use fork_unreal4u\TelegramAPI\Exceptions\ClientException;
+use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
 
 class HttpClientRequestHandler implements RequestHandlerInterface
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\InputMedia;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types\InputMedia;
 
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
-use unreal4u\TelegramAPI\Telegram\Types\InputMedia;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
+use fork_unreal4u\TelegramAPI\Telegram\Types\InputMedia;
 
 /**
  * Represents a video to be sent.

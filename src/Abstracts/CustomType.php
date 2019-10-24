@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Abstracts;
+namespace fork_unreal4u\TelegramAPI\Abstracts;
 
 /**
  * Special class to which to ask if we're dealing with a native type or a custom one

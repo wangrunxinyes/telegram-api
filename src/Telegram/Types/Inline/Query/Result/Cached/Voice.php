@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result\Cached;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result\Cached;
 
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
-use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use fork_unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents a link to a voice message stored on the Telegram servers. By default, this voice message will be sent by

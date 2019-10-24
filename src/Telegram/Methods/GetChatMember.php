@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
 
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use unreal4u\TelegramAPI\Telegram\Types\ChatMember;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use fork_unreal4u\TelegramAPI\Telegram\Types\ChatMember;
 
 /**
  * Use this method to get information about a member of a chat. Returns a ChatMember object on success

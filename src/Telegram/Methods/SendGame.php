@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
 
 /**
  * Use this method to send a game. On success, the sent Message is returned.

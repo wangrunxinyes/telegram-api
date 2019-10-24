@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
 
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use unreal4u\TelegramAPI\Telegram\Types\StickerSet;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use fork_unreal4u\TelegramAPI\Telegram\Types\StickerSet;
 
 /**
  * Use this method to get a sticker set. On success, a StickerSet object is returned.

@@ -1,17 +1,17 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\GetUpdates;
-use unreal4u\TelegramAPI\Telegram\Types\Chat;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\UpdatesArray;
-use unreal4u\TelegramAPI\Telegram\Types\Message;
-use unreal4u\TelegramAPI\Telegram\Types\PreCheckoutQuery;
-use unreal4u\TelegramAPI\Telegram\Types\Update;
-use unreal4u\TelegramAPI\Telegram\Types\User;
-use unreal4u\TelegramAPI\tests\Mock\MockClientException;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use fork_unreal4u\TelegramAPI\Telegram\Methods\GetUpdates;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Chat;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\UpdatesArray;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Message;
+use fork_unreal4u\TelegramAPI\Telegram\Types\PreCheckoutQuery;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Update;
+use fork_unreal4u\TelegramAPI\Telegram\Types\User;
+use fork_unreal4u\TelegramAPI\tests\Mock\MockClientException;
+use fork_unreal4u\TelegramAPI\tests\Mock\MockTgLog;
 
 class GetUpdatesTest extends TestCase
 {

@@ -15,12 +15,12 @@ declare(strict_types = 1);
 include __DIR__.'/basics.php';
 
 use React\EventLoop\Factory;
-use unreal4u\TelegramAPI\HttpClientRequestHandler;
+use fork_unreal4u\TelegramAPI\HttpClientRequestHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
-use unreal4u\TelegramAPI\Telegram\Methods\GetUserProfilePhotos;
-use unreal4u\TelegramAPI\Telegram\Types\UserProfilePhotos;
-use unreal4u\TelegramAPI\TgLog;
+use fork_unreal4u\TelegramAPI\Telegram\Methods\GetUserProfilePhotos;
+use fork_unreal4u\TelegramAPI\Telegram\Types\UserProfilePhotos;
+use fork_unreal4u\TelegramAPI\TgLog;
 
 $logger = new Logger('CUSTOM-EXAMPLE');
 $logger->pushHandler(new StreamHandler('logs/custom-example.log'));

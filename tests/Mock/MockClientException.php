@@ -1,6 +1,6 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Mock;
+namespace fork_unreal4u\TelegramAPI\tests\Mock;
 
 class MockClientException extends \Exception
 {

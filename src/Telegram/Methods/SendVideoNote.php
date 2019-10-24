@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
 
 use Generator;
-use unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
+use fork_unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
 
 /**
  * As of v.4.0, Telegram clients support rounded square mp4 videos of up to 1 minute long. Use this method to send video

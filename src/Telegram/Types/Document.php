@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * This object represents a general file (as opposed to photos, voice messages and audio files).

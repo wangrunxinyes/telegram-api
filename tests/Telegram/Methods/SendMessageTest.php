@@ -1,15 +1,15 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\SendMessage;
-use unreal4u\TelegramAPI\Telegram\Types\Chat;
-use unreal4u\TelegramAPI\Telegram\Types\Message;
-use unreal4u\TelegramAPI\Telegram\Types\ReplyKeyboardMarkup;
-use unreal4u\TelegramAPI\Telegram\Types\User;
-use unreal4u\TelegramAPI\tests\Mock\MockClientException;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use fork_unreal4u\TelegramAPI\Telegram\Methods\SendMessage;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Chat;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Message;
+use fork_unreal4u\TelegramAPI\Telegram\Types\ReplyKeyboardMarkup;
+use fork_unreal4u\TelegramAPI\Telegram\Types\User;
+use fork_unreal4u\TelegramAPI\tests\Mock\MockClientException;
+use fork_unreal4u\TelegramAPI\tests\Mock\MockTgLog;
 
 class SendMessageTest extends TestCase
 {
@@ -119,7 +119,7 @@ class SendMessageTest extends TestCase
     }
 
     /**
-     * @expectedException \unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
+     * @expectedException \fork_unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
      * @expectedExceptionMessage chat_id
      */
     public function testSendIncompleteMessage()

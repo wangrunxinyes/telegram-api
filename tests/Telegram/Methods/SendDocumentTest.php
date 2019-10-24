@@ -1,15 +1,15 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\SendDocument;
-use unreal4u\TelegramAPI\Telegram\Types\Chat;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
-use unreal4u\TelegramAPI\Telegram\Types\Document;
-use unreal4u\TelegramAPI\Telegram\Types\Message;
-use unreal4u\TelegramAPI\Telegram\Types\User;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use fork_unreal4u\TelegramAPI\Telegram\Methods\SendDocument;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Chat;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Document;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Message;
+use fork_unreal4u\TelegramAPI\Telegram\Types\User;
+use fork_unreal4u\TelegramAPI\tests\Mock\MockTgLog;
 
 class SendDocumentTest extends TestCase
 {

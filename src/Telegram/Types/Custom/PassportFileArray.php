@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Custom;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types\Custom;
 
-use unreal4u\TelegramAPI\Abstracts\TraversableCustomType;
-use unreal4u\TelegramAPI\Telegram\Types\Passport\PassportFile;
-use unreal4u\TelegramAPI\Telegram\Types\PhotoSize;
+use fork_unreal4u\TelegramAPI\Abstracts\TraversableCustomType;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Passport\PassportFile;
+use fork_unreal4u\TelegramAPI\Telegram\Types\PhotoSize;
 use Psr\Log\LoggerInterface;
 
 /**

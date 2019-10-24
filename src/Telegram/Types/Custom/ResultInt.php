@@ -1,10 +1,10 @@
 <?php
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Custom;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types\Custom;
 
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\CustomType;
+use fork_unreal4u\TelegramAPI\Abstracts\CustomType;
 
 /**
  * Some API calls respond with int types

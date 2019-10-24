@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types;
 
-use unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
+use fork_unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
 
 /**
  * Upon receiving a message with this object, Telegram clients will display a reply interface to the user (act as if the

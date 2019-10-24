@@ -1,11 +1,11 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\SetWebhook;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use fork_unreal4u\TelegramAPI\Telegram\Methods\SetWebhook;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use fork_unreal4u\TelegramAPI\tests\Mock\MockTgLog;
 
 class SetWebhookTest extends TestCase
 {
@@ -31,7 +31,7 @@ class SetWebhookTest extends TestCase
     }
 
     /**
-     * @expectedException \unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
+     * @expectedException \fork_unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
      * @expectedExceptionMessage url
      */
     public function testMandatoryFields()

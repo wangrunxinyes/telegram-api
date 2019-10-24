@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
 
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
-use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use fork_unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents a contact with a phone number. By default, this contact will be sent by the user. Alternatively, you can

@@ -1,10 +1,10 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\InternalFunctionality;
+namespace fork_unreal4u\TelegramAPI\tests\InternalFunctionality;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramDocument;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramDocument;
+use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
 
 class TelegramDocumentTest extends TestCase
 {

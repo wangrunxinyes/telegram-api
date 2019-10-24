@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * This object represents the content of a message to be sent as a result of an inline query. Telegram clients currently

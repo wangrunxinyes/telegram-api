@@ -5,13 +5,13 @@ declare(strict_types = 1);
 include __DIR__.'/basics.php';
 
 use React\EventLoop\Factory;
-use unreal4u\TelegramAPI\HttpClientRequestHandler;
+use fork_unreal4u\TelegramAPI\HttpClientRequestHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
-use unreal4u\TelegramAPI\Telegram\Methods\EditMessageText;
-use unreal4u\TelegramAPI\Telegram\Methods\SendMessage;
-use unreal4u\TelegramAPI\Telegram\Types\Message;
-use unreal4u\TelegramAPI\TgLog;
+use fork_unreal4u\TelegramAPI\Telegram\Methods\EditMessageText;
+use fork_unreal4u\TelegramAPI\Telegram\Methods\SendMessage;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Message;
+use fork_unreal4u\TelegramAPI\TgLog;
 
 $logger = new Logger('CUSTOM-EXAMPLE');
 $logger->pushHandler(new StreamHandler('logs/custom-example.log'));

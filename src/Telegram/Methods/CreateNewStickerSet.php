@@ -2,16 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
 
 use Generator;
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use unreal4u\TelegramAPI\Telegram\Types\MaskPosition;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use fork_unreal4u\TelegramAPI\Telegram\Types\MaskPosition;
 
 /**
  * Use this method to create new sticker set owned by a user. The bot will be able to edit the created sticker set.

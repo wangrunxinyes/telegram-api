@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
 
-use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use fork_unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents the content of a location message to be sent as the result of an inline query.

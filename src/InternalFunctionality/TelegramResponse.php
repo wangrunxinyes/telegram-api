@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace unreal4u\TelegramAPI\InternalFunctionality;
+namespace fork_unreal4u\TelegramAPI\InternalFunctionality;
 
-use unreal4u\TelegramAPI\Exceptions\ClientException;
-use unreal4u\TelegramAPI\Exceptions\InvalidResultType;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\UnsuccessfulRequest;
+use fork_unreal4u\TelegramAPI\Exceptions\ClientException;
+use fork_unreal4u\TelegramAPI\Exceptions\InvalidResultType;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\UnsuccessfulRequest;
 
 class TelegramResponse
 {

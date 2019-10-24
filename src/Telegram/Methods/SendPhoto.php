@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
 
 use Generator;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
 
 /**
  * Use this method to send photos. On success, the sent Message is returned

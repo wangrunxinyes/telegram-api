@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Passport;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types\Passport;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\PassportFileArray;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\PassportFileArray;
 
 /**
  * This object represents information about an order

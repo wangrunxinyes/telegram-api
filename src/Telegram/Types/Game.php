@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types;
 
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\PhotoSizeArray;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\MessageEntityArray;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\PhotoSizeArray;
 
 /**
  * This object represents a game. Use BotFather to create and edit games, their short names will act as unique

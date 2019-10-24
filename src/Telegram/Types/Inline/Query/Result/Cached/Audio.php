@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result\Cached;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result\Cached;
 
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
-use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use fork_unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents a link to an mp3 audio file stored on the Telegram servers. By default, this audio file will be sent by

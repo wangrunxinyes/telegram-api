@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Custom;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types\Custom;
 
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\TraversableCustomType;
-use unreal4u\TelegramAPI\Telegram\Types\PollOption;
+use fork_unreal4u\TelegramAPI\Abstracts\TraversableCustomType;
+use fork_unreal4u\TelegramAPI\Telegram\Types\PollOption;
 use function count;
 
 /**

@@ -1,12 +1,12 @@
 <?php
 
-namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use unreal4u\TelegramAPI\Telegram\Methods\GetMe;
-use unreal4u\TelegramAPI\Telegram\Types\User;
-use unreal4u\TelegramAPI\tests\Mock\MockClientException;
-use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use fork_unreal4u\TelegramAPI\Telegram\Methods\GetMe;
+use fork_unreal4u\TelegramAPI\Telegram\Types\User;
+use fork_unreal4u\TelegramAPI\tests\Mock\MockClientException;
+use fork_unreal4u\TelegramAPI\tests\Mock\MockTgLog;
 
 class GetMeTest extends TestCase
 {

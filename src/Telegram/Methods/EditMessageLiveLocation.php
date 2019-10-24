@@ -2,16 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Methods;
+namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
 
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use unreal4u\TelegramAPI\Exceptions\InvalidResultType;
-use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
-use unreal4u\TelegramAPI\Telegram\Types\Message;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use fork_unreal4u\TelegramAPI\Exceptions\InvalidResultType;
+use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Message;
 
 /**
  * Use this method to edit live location messages sent by the bot or via the bot (for inline bots). A location can be

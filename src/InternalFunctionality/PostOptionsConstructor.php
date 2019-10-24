@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace unreal4u\TelegramAPI\InternalFunctionality;
+namespace fork_unreal4u\TelegramAPI\InternalFunctionality;
 
 use MultipartBuilder\Builder;
 use MultipartBuilder\MultipartData;
 use Psr\Log\LoggerInterface;
 use function strstr;
 use unreal4u\Dummy\Logger;
-use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use unreal4u\TelegramAPI\Exceptions\MissingMandatoryField;
-use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
+use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use fork_unreal4u\TelegramAPI\Exceptions\MissingMandatoryField;
+use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
 use function pathinfo;
 use function stream_get_contents;
 use function strlen;

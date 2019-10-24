@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace unreal4u\TelegramAPI\Telegram\Types\Custom;
+namespace fork_unreal4u\TelegramAPI\Telegram\Types\Custom;
 
 use Psr\Log\LoggerInterface;
-use unreal4u\TelegramAPI\Abstracts\TraversableCustomType;
-use unreal4u\TelegramAPI\Telegram\Types\User;
+use fork_unreal4u\TelegramAPI\Abstracts\TraversableCustomType;
+use fork_unreal4u\TelegramAPI\Telegram\Types\User;
 
 /**
  * Mockup class to generate a real telegram update representation
