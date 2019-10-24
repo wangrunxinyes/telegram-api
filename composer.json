@@ -22,7 +22,7 @@
     "clue/block-react": "^1.1",
     "yoshi2889/multipart-builder": "^0.1.1",
     "amphp/artax": "^3",
-    "paragonie/random_compat": "1.2.2"
+    "paragonie/random_compat": "^1.2.2"
   },
   "require-dev": {
     "monolog/monolog": "^1.17",
