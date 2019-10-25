@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard;
+namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard;
 
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\InlineKeyboardButtonArray;
+use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use unreal4u\TelegramAPI\Telegram\Types\Custom\InlineKeyboardButtonArray;
 
 /**
  * This object represents an inline keyboard that appears right next to the message it belongs to.

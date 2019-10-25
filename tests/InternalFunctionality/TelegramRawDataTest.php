@@ -1,10 +1,10 @@
 <?php
 
-namespace fork_unreal4u\TelegramAPI\tests\InternalFunctionality;
+namespace unreal4u\TelegramAPI\tests\InternalFunctionality;
 
 use PHPUnit\Framework\TestCase;
-use fork_unreal4u\TelegramAPI\Exceptions\ClientException;
-use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use unreal4u\TelegramAPI\Exceptions\ClientException;
+use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
 
 class TelegramRawDataTest extends TestCase
 {
@@ -44,7 +44,7 @@ class TelegramRawDataTest extends TestCase
     /**
      * @dataProvider providerGetInvalidTypeOfResult
      * @param $data
-     * @expectedException \fork_unreal4u\TelegramAPI\Exceptions\InvalidResultType
+     * @expectedException \unreal4u\TelegramAPI\Exceptions\InvalidResultType
      */
     public function testGetInvalidTypeOfResult($data)
     {

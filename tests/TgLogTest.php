@@ -1,10 +1,10 @@
 <?php
 
-namespace fork_unreal4u\TelegramAPI\tests;
+namespace unreal4u\TelegramAPI\tests;
 
 use PHPUnit\Framework\TestCase;
-use fork_unreal4u\TelegramAPI\Telegram\Methods\GetMe;
-use fork_unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use unreal4u\TelegramAPI\Telegram\Methods\GetMe;
+use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
 
 class TgLogTest extends TestCase
 {
@@ -41,7 +41,7 @@ class TgLogTest extends TestCase
     {
         $call = new \ReflectionMethod('unreal4u\\TelegramAPI\\TgLog', 'buildMultipartFormData');
         $call->setAccessible(true);
-        $result = $call->invokeArgs(new \fork_unreal4u\TelegramAPI\TgLog('TEST-TEST'), [$data, $fileKeyName, $stream]);
+        $result = $call->invokeArgs(new \unreal4u\TelegramAPI\TgLog('TEST-TEST'), [$data, $fileKeyName, $stream]);
         $this->assertEquals($expected, $result);
     }*/
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Custom;
+namespace unreal4u\TelegramAPI\Telegram\Types\Custom;
 
-use fork_unreal4u\TelegramAPI\Exceptions\FileNotReadable;
+use unreal4u\TelegramAPI\Exceptions\FileNotReadable;
 
 /**
  * This object represents the contents of a file to be uploaded. Must be posted using multipart/form-data in the usual

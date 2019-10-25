@@ -1,11 +1,11 @@
 <?php
 
-namespace fork_unreal4u\TelegramAPI\tests\Mock;
+namespace unreal4u\TelegramAPI\tests\Mock;
 
 use React\Promise\Deferred;
 use React\Promise\PromiseInterface;
-use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use fork_unreal4u\TelegramAPI\RequestHandlerInterface;
+use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use unreal4u\TelegramAPI\RequestHandlerInterface;
 
 class MockRequestHandler implements RequestHandlerInterface
 {

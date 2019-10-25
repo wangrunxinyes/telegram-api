@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard;
+namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard;
 
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use fork_unreal4u\TelegramAPI\Telegram\Types\CallbackGame;
-use fork_unreal4u\TelegramAPI\Telegram\Types\LoginUrl;
+use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use unreal4u\TelegramAPI\Telegram\Types\CallbackGame;
+use unreal4u\TelegramAPI\Telegram\Types\LoginUrl;
 
 /**
  * This object represents one button of an inline keyboard. You must use exactly one of the optional fields

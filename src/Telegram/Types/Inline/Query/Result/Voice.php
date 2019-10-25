@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
 
-use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
-use fork_unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents a link to a voice recording in an .ogg container encoded with OPUS. By default, this voice recording will

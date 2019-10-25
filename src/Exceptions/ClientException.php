@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Exceptions;
+namespace unreal4u\TelegramAPI\Exceptions;
 
 use Throwable;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\UnsuccessfulRequest;
+use unreal4u\TelegramAPI\Telegram\Types\Custom\UnsuccessfulRequest;
 
 class ClientException extends \RuntimeException
 {

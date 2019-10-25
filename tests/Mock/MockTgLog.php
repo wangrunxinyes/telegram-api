@@ -1,11 +1,11 @@
 <?php
 
-namespace fork_unreal4u\TelegramAPI\tests\Mock;
+namespace unreal4u\TelegramAPI\tests\Mock;
 
 use Psr\Log\LoggerInterface;
 use React\Promise\PromiseInterface;
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use fork_unreal4u\TelegramAPI\TgLog;
+use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use unreal4u\TelegramAPI\TgLog;
 
 
 class MockTgLog extends TgLog

@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types;
+namespace unreal4u\TelegramAPI\Telegram\Types;
 
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\StickerSetArray;
+use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use unreal4u\TelegramAPI\Telegram\Types\Custom\StickerSetArray;
 
 /**
  * This object represents a sticker set

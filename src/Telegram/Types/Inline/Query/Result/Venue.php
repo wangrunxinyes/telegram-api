@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
 
-use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
-use fork_unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents a venue. By default, the venue will be sent by the user. Alternatively, you can use input_message_content

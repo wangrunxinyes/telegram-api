@@ -1,10 +1,10 @@
 <?php
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Custom;
+namespace unreal4u\TelegramAPI\Telegram\Types\Custom;
 
 use Psr\Log\LoggerInterface;
-use fork_unreal4u\TelegramAPI\Abstracts\CustomType;
+use unreal4u\TelegramAPI\Abstracts\CustomType;
 
 /**
  * Not being used by the package itself, but useful for some bots to initialize if no response is actually expected

@@ -2,17 +2,17 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
+namespace unreal4u\TelegramAPI\Telegram\Methods;
 
 use Psr\Log\LoggerInterface;
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use fork_unreal4u\TelegramAPI\Exceptions\InvalidResultType;
-use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
-use fork_unreal4u\TelegramAPI\Telegram\Types\InputMedia;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Message;
+use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use unreal4u\TelegramAPI\Exceptions\InvalidResultType;
+use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use unreal4u\TelegramAPI\Telegram\Types\Custom\ResultBoolean;
+use unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use unreal4u\TelegramAPI\Telegram\Types\InputMedia;
+use unreal4u\TelegramAPI\Telegram\Types\Message;
 
 /**
  * Use this method to edit audio, document, photo, or video messages. If a message is a part of a message album, then it

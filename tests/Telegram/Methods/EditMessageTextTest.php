@@ -1,10 +1,10 @@
 <?php
 
-namespace fork_unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use fork_unreal4u\TelegramAPI\Telegram\Methods\EditMessageText;
-use fork_unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use unreal4u\TelegramAPI\Telegram\Methods\EditMessageText;
+use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
 
 class EditMessageTextTest extends TestCase
 {
@@ -30,7 +30,7 @@ class EditMessageTextTest extends TestCase
     }
 
     /**
-     * @expectedException \fork_unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
+     * @expectedException \unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
      * @expectedExceptionMessage chat_id
      */
     public function testMissingMandatoryExportField()
@@ -40,7 +40,7 @@ class EditMessageTextTest extends TestCase
     }
 
     /**
-     * @expectedException \fork_unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
+     * @expectedException \unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
      * @expectedExceptionMessage text
      */
     public function testMissingMandatoryTextField()
@@ -51,7 +51,7 @@ class EditMessageTextTest extends TestCase
     }
 
     /**
-     * @expectedException \fork_unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
+     * @expectedException \unreal4u\TelegramAPI\Exceptions\MissingMandatoryField
      * @expectedExceptionMessage message_id
      */
     public function testMissingMandatoryMessageIdField()

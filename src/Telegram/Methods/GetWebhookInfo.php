@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
+namespace unreal4u\TelegramAPI\Telegram\Methods;
 
 use Psr\Log\LoggerInterface;
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use fork_unreal4u\TelegramAPI\Telegram\Types\WebhookInfo;
+use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use unreal4u\TelegramAPI\Telegram\Types\WebhookInfo;
 
 /**
  * Use this method to get current webhook status. Requires no parameters. On success, returns a WebhookInfo object. If

@@ -98,9 +98,9 @@ have to upgrade from v2 to v3.
 ```php
 <?php
 
-use \fork_unreal4u\TelegramAPI\HttpClientRequestHandler;
-use \fork_unreal4u\TelegramAPI\TgLog;
-use \fork_unreal4u\TelegramAPI\Telegram\Methods\SendMessage;
+use \unreal4u\TelegramAPI\HttpClientRequestHandler;
+use \unreal4u\TelegramAPI\TgLog;
+use \unreal4u\TelegramAPI\Telegram\Methods\SendMessage;
 
 $loop = \React\EventLoop\Factory::create();
 $handler = new HttpClientRequestHandler($loop);

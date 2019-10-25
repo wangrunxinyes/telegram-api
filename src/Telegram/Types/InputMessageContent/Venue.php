@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+namespace unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
 
-use fork_unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents the content of a venue message to be sent as the result of an inline query.

@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Abstracts;
+namespace unreal4u\TelegramAPI\Abstracts;
 
 use ArrayIterator;
 use Generator;
@@ -11,7 +11,7 @@ use Traversable;
 
 /**
  * Class TraversableCustomType
- * @package fork_unreal4u\TelegramAPI\Abstracts
+ * @package unreal4u\TelegramAPI\Abstracts
  */
 abstract class TraversableCustomType extends CustomType implements IteratorAggregate
 {

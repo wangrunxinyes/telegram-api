@@ -1,15 +1,15 @@
 <?php
 
-namespace fork_unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use fork_unreal4u\TelegramAPI\Telegram\Methods\SendSticker;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Chat;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Message;
-use fork_unreal4u\TelegramAPI\Telegram\Types\PhotoSize;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Sticker;
-use fork_unreal4u\TelegramAPI\Telegram\Types\User;
-use fork_unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use unreal4u\TelegramAPI\Telegram\Methods\SendSticker;
+use unreal4u\TelegramAPI\Telegram\Types\Chat;
+use unreal4u\TelegramAPI\Telegram\Types\Message;
+use unreal4u\TelegramAPI\Telegram\Types\PhotoSize;
+use unreal4u\TelegramAPI\Telegram\Types\Sticker;
+use unreal4u\TelegramAPI\Telegram\Types\User;
+use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
 
 class SendStickerTest extends TestCase
 {

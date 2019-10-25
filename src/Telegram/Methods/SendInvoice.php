@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
+namespace unreal4u\TelegramAPI\Telegram\Methods;
 
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
-use fork_unreal4u\TelegramAPI\Telegram\Types\LabeledPrice;
+use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use unreal4u\TelegramAPI\Telegram\Types\LabeledPrice;
 
 /**
  * Use this method to send invoices. On success, the sent Message is returned.

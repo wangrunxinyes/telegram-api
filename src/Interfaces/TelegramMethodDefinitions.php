@@ -2,17 +2,17 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Interfaces;
+namespace unreal4u\TelegramAPI\Interfaces;
 
 use Psr\Log\LoggerInterface;
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
 
 /**
  * Mandatory functions for Methods
  *
- * @package fork_unreal4u\TelegramAPI\Interfaces
+ * @package unreal4u\TelegramAPI\Interfaces
  */
 interface TelegramMethodDefinitions
 {

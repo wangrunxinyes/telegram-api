@@ -1,12 +1,12 @@
 <?php
 
-namespace fork_unreal4u\TelegramAPI\tests\Telegram\Types;
+namespace unreal4u\TelegramAPI\tests\Telegram\Types;
 
 use PHPUnit\Framework\TestCase;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\ChosenResult;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Update;
-use fork_unreal4u\TelegramAPI\Telegram\Types\User;
+use unreal4u\TelegramAPI\Telegram\Types\Inline\ChosenResult;
+use unreal4u\TelegramAPI\Telegram\Types\Inline\Query;
+use unreal4u\TelegramAPI\Telegram\Types\Update;
+use unreal4u\TelegramAPI\Telegram\Types\User;
 
 class UpdateTest extends TestCase
 {

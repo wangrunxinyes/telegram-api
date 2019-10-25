@@ -1,14 +1,14 @@
 <?php
 
-namespace fork_unreal4u\TelegramAPI\tests\Telegram\Methods;
+namespace unreal4u\TelegramAPI\tests\Telegram\Methods;
 
 use PHPUnit\Framework\TestCase;
-use fork_unreal4u\TelegramAPI\Telegram\Methods\SendLocation;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Chat;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Location;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Message;
-use fork_unreal4u\TelegramAPI\Telegram\Types\User;
-use fork_unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use unreal4u\TelegramAPI\Telegram\Methods\SendLocation;
+use unreal4u\TelegramAPI\Telegram\Types\Chat;
+use unreal4u\TelegramAPI\Telegram\Types\Location;
+use unreal4u\TelegramAPI\Telegram\Types\Message;
+use unreal4u\TelegramAPI\Telegram\Types\User;
+use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
 
 class SendLocationTest extends TestCase
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Abstracts;
+namespace unreal4u\TelegramAPI\Abstracts;
 
 use Psr\Log\LoggerInterface;
 use unreal4u\Dummy\Logger;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\ResultArray;
+use unreal4u\TelegramAPI\Telegram\Types\Custom\ResultArray;
 
 abstract class TelegramTypes
 {

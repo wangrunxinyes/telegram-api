@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types;
+namespace unreal4u\TelegramAPI\Telegram\Types;
 
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * A placeholder, currently holds no information. Use BotFather to set up your game.

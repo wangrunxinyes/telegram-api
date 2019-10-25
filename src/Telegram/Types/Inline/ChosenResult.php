@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Inline;
+namespace unreal4u\TelegramAPI\Telegram\Types\Inline;
 
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use fork_unreal4u\TelegramAPI\Telegram\Types\User;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Location;
+use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use unreal4u\TelegramAPI\Telegram\Types\User;
+use unreal4u\TelegramAPI\Telegram\Types\Location;
 
 /**
  * This object represents a result of an inline query that was chosen by the user and sent to their chat partner.

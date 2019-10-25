@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Abstracts;
+namespace unreal4u\TelegramAPI\Abstracts;
 
 abstract class KeyboardMethods extends TelegramTypes
 {

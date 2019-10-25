@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace fork_unreal4u\TelegramAPI\Abstracts;
+namespace unreal4u\TelegramAPI\Abstracts;
 
 use Generator;
 use Psr\Log\LoggerInterface;
-use fork_unreal4u\TelegramAPI\Exceptions\MissingMandatoryField;
-use fork_unreal4u\TelegramAPI\Interfaces\TelegramMethodDefinitions;
-use fork_unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Message;
-use fork_unreal4u\TelegramAPI\Telegram\Types\ReplyKeyboardMarkup;
+use unreal4u\TelegramAPI\Exceptions\MissingMandatoryField;
+use unreal4u\TelegramAPI\Interfaces\TelegramMethodDefinitions;
+use unreal4u\TelegramAPI\InternalFunctionality\TelegramResponse;
+use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
+use unreal4u\TelegramAPI\Telegram\Types\Inline\Keyboard\Markup;
+use unreal4u\TelegramAPI\Telegram\Types\Message;
+use unreal4u\TelegramAPI\Telegram\Types\ReplyKeyboardMarkup;
 use function get_class;
 use function is_object;
 use function json_encode;
@@ -33,8 +33,8 @@ abstract class TelegramMethods implements TelegramMethodDefinitions
      * This function may however be overwritten if the method uses another object, there are many examples of this, so
      * just check out the rest of the code. A good place to start is GetUserProfilePhotos or LeaveChat
      *
-     * @see \fork_unreal4u\TelegramAPI\Telegram\Methods\GetUserProfilePhotos
-     * @see \fork_unreal4u\TelegramAPI\Telegram\Methods\LeaveChat
+     * @see \unreal4u\TelegramAPI\Telegram\Methods\GetUserProfilePhotos
+     * @see \unreal4u\TelegramAPI\Telegram\Methods\LeaveChat
      *
      * @param TelegramResponse $data
      * @param LoggerInterface $logger
@@ -66,7 +66,7 @@ abstract class TelegramMethods implements TelegramMethodDefinitions
     /**
      * Ensure we have a method we can always call in order to check if we have any local files
      *
-     * @see \fork_unreal4u\TelegramAPI\InternalFunctionality\PostOptionsConstructor::checkIsMultipart
+     * @see \unreal4u\TelegramAPI\InternalFunctionality\PostOptionsConstructor::checkIsMultipart
      *
      * @return bool
      */

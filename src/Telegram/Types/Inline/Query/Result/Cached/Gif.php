@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result\Cached;
+namespace unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result\Cached;
 
-use fork_unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
-use fork_unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
+use unreal4u\TelegramAPI\Telegram\Types\Inline\Query\Result;
+use unreal4u\TelegramAPI\Telegram\Types\InputMessageContent;
 
 /**
  * Represents a link to an animated GIF file stored on the Telegram servers. By default, this animated GIF file will be

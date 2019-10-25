@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types;
+namespace unreal4u\TelegramAPI\Telegram\Types;
 
-use fork_unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\KeyboardButtonArray;
+use unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
+use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use unreal4u\TelegramAPI\Telegram\Types\Custom\KeyboardButtonArray;
 
 /**
  * This object represents a custom keyboard with reply options (see Introduction to bots for details and examples).

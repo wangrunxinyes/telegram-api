@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Methods;
+namespace unreal4u\TelegramAPI\Telegram\Methods;
 
 use Generator;
-use fork_unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramMethods;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
+use unreal4u\TelegramAPI\Abstracts\KeyboardMethods;
+use unreal4u\TelegramAPI\Abstracts\TelegramMethods;
+use unreal4u\TelegramAPI\Telegram\Types\Custom\InputFile;
 
 /**
  * Use this method to send .webp stickers. On success, the sent Message is returned.

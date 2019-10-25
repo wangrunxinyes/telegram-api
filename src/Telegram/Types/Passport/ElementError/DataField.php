@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Passport\ElementError;
+namespace unreal4u\TelegramAPI\Telegram\Types\Passport\ElementError;
 
-use fork_unreal4u\TelegramAPI\Telegram\Types\Passport\PassportElementError;
+use unreal4u\TelegramAPI\Telegram\Types\Passport\PassportElementError;
 
 /**
  * This object represents information about an order

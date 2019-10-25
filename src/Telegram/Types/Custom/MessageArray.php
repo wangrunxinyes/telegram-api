@@ -1,12 +1,12 @@
 <?php
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Custom;
+namespace unreal4u\TelegramAPI\Telegram\Types\Custom;
 
 use Psr\Log\LoggerInterface;
-use fork_unreal4u\TelegramAPI\Abstracts\TraversableCustomType;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Message;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Update;
+use unreal4u\TelegramAPI\Abstracts\TraversableCustomType;
+use unreal4u\TelegramAPI\Telegram\Types\Message;
+use unreal4u\TelegramAPI\Telegram\Types\Update;
 
 /**
  * Used for methods that will return an array of messages

@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace fork_unreal4u\TelegramAPI\Telegram\Types\Passport;
+namespace unreal4u\TelegramAPI\Telegram\Types\Passport;
 
-use fork_unreal4u\TelegramAPI\Abstracts\TelegramTypes;
+use unreal4u\TelegramAPI\Abstracts\TelegramTypes;
 
 /**
  * This object represents an error in the Telegram Passport element which was submitted that should be resolved by the

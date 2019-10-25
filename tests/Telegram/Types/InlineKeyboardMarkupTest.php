@@ -1,13 +1,13 @@
 <?php
 
-namespace fork_unreal4u\TelegramAPI\tests\Telegram\Types;
+namespace unreal4u\TelegramAPI\tests\Telegram\Types;
 
 use PHPUnit\Framework\TestCase;
-use fork_unreal4u\TelegramAPI\Telegram\Types\CallbackQuery;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Chat;
-use fork_unreal4u\TelegramAPI\Telegram\Types\Update;
-use fork_unreal4u\TelegramAPI\Telegram\Types\User;
-use fork_unreal4u\TelegramAPI\tests\Mock\MockTgLog;
+use unreal4u\TelegramAPI\Telegram\Types\CallbackQuery;
+use unreal4u\TelegramAPI\Telegram\Types\Chat;
+use unreal4u\TelegramAPI\Telegram\Types\Update;
+use unreal4u\TelegramAPI\Telegram\Types\User;
+use unreal4u\TelegramAPI\tests\Mock\MockTgLog;
 
 class InlineKeyboardMarkupTest extends TestCase
 {
